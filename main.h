@@ -10,8 +10,8 @@
 
 typedef struct types
 {
-	char *id;
-	int* (*f)(va_list args);
+char *id;
+int* (*f)(va_list args);
 } print;
 int _putchar(char c);
 int _printf(const char *format, ...);
